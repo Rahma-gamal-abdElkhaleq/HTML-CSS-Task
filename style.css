@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 1, 90);
+    align-items: center;
+}
+.logo{
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
+ font-family: Arial, sans-serif;
+font-size: 25px;
+font-weight: bolder;
+color: #fff;
+
+
+}
+.logo span{
+    color: blueviolet;
+    padding-left: 5px;
+}
+.Links{
+display: flex;
+justify-content: space-around;
+width: 30%;
+ 
+   
+}
+.Links a{
+   text-decoration: none;
+   color: white;
+   font-family: Arial, sans-serif;
+  
+}
+.Links a:hover{
+    color: blueviolet;
+    transition: 0.4s linear ;
+}
+.Home-section{
+    width: 100%;
+    height: 400px;
+    background-image: url(./cityscape-3346227.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+     padding-left: 70px;
+     padding-top: 50px;
+      line-height: 1.5;
+         font-family: Arial, sans-serif;
+         font-size: 20px;
+}
+.Home-section span{
+    color: blueviolet;
+}
+.Home-section button{
+    color: white;
+    background-color: blueviolet;
+    width: 150px;
+    height: 50px;
+    border: none ;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Home-section button:hover{
+    transform: translateY(-5px)  ;
+    transition: linear 0.2s;
+    background-color:  rgb(113, 9, 210);
+}
+.Popular-section{
+    width: 100%;
+    height: 400px;
+    font-family: Arial, sans-serif;
+}
+.Popular-header {
+    margin-top: 50px;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.Popular-header p{
+    color: darkgray;
+}
+.cards{
+    margin-top: 50px;
+display: flex;
+justify-content: space-around;
+
+}
+.card-1{
+    width: 350px;
+    height: 200px;
+    background-color:rgba(239, 181, 239, 0.395);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03), 0 12px 28px rgba(0, 0, 0, 0.06), 0 28px 72px rgba(0, 0, 0, 0.08);
+}
+.card-2{
+    width: 350px;
+    height: 200px;
+    background-color:rgba(161, 199, 235, 0.628);
+    border-radius: 20px;
+    padding-top: 20px;
+     line-height: 1.8;
+      padding-left: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03), 0 12px 28px rgba(0, 0, 0, 0.06), 0 28px 72px rgba(0, 0, 0, 0.08);
+}
+.card-3{
+    width: 350px;
+    height: 200px;
+    background-color:rgb(177, 245, 215);
+    border-radius: 20px;
+    padding-top: 20px;
+     line-height: 1.8;
+      padding-left: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03), 0 12px 28px rgba(0, 0, 0, 0.06), 0 28px 72px rgba(0, 0, 0, 0.08);
+}
+.card-1 span{
+    background-color: blueviolet;
+    border-radius: 20px;
+   position: absolute;
+   left: 270px;
+   color: #fff;
+   width: 50px;
+     font-family: Arial, sans-serif;
+     padding: 5px;
+   
+}
+.cards .card-1:hover{
+     transform: translateY(-10px)  ;
+    transition: linear 0.3s;
+}
+
+.cards .card-2:hover{
+     transform: translateY(-10px)  ;
+    transition: linear 0.3s;
+}
+
+.cards .card-3:hover{
+     transform: translateY(-10px)  ;
+    transition: linear 0.3s;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(1, 1, 90);
+    color: white;
+    text-align: center;
+     font-family: Arial, sans-serif;
+     line-height: 1.5;
+
+}
+.footer .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ padding-top: 50px;
+}
+.cards a {
+    text-decoration: none;
+     font-family: Arial, sans-serif;
+     font-weight: bold;
+     color: blueviolet;
+}
